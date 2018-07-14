@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a56d6d"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/design"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NAME IS-"
+            android:layout_weight="3"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_weight="5"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:id="@+id/name_ac"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/design">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="PHONENUMBER IS-"
+            android:textStyle="bold"
+            android:layout_weight="3"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="number"
+            android:layout_weight="5"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:id="@+id/number_ac"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/design">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS IS-"
+            android:layout_weight="3"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="address"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:id="@+id/address_ac"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

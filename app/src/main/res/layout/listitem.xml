@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="@drawable/design">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name1"
+        android:textColor="#000"
+        android:id="@+id/student_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#000"
+        android:id="@+id/addressValue"
+        android:layout_below="@+id/student_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="phone"
+    android:textColor="#000"
+    android:id="@+id/phone1233"
+    android:layout_below="@+id/addressValue"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+</RelativeLayout>
